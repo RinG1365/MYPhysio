@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient4"
+    android:orientation="vertical"
+    tools:context=".SearchResult">
+
+    <TextView
+        android:id="@+id/txtSearchDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/profileColor"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/txtTargetPhy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/profileColor"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="08:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="09:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="10:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="11:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="12:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@color/profileColor"
+        android:gravity="center"
+        android:text="Rest Time"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="14:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="15:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="16:00"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/Slot10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sH"
+        android:background="@color/profileColor"
+        android:gravity="center"
+        android:text="Center Closed"
+        android:textSize="24sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="White : Free Slot  "
+        android:textSize="18sp"
+        app:fontFamily="@font/open_sans" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Blue : Reserved"
+        android:textSize="18sp"
+        app:fontFamily="@font/open_sans" />
+
+    <Button
+        android:id="@+id/btnGoToBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient3"
+        android:onClick="fnGoToBook"
+        android:text="Go To Book"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnBackToSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fnBackToSearch"
+        android:text="Back"
+        android:textSize="14sp" />
+</LinearLayout>
